@@ -26,6 +26,7 @@ body {
     border-radius: 80%;
     margin-bottom: 40px;
     transform: translate(-10%, -50%);
+    margim-top: 20px;
 }
 
 .btn {
