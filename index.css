@@ -10,12 +10,10 @@ body {
 }
 
 .container {
-    display: inline-block;
     background-color: #9aa9dd;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    flex-direction: column;
     text-align: center;
     max-width: 600px;
 }
