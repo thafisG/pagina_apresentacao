@@ -1,5 +1,5 @@
 // Função chamada ao clicar no botão
-function participarCurso() {
+function participarButton() {
     alert("Obrigado por se inscrever no curso!");
 
     // Selecionar o botão pelo ID
@@ -13,5 +13,4 @@ function participarCurso() {
     button.disabled = true;
 }
 
-// Adicionar o event listener ao botão
-document.getElementById('participarButton').addEventListener('click', participarCurso);
+document.getElementById('participarButton').addEventListener('click', participarButton);
