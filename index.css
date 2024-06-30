@@ -11,7 +11,6 @@ body {
 
 .container {
     display: inline-block;
-    position: relative
     background-color: #9aa9dd;
     padding: 20px;
     border-radius: 8px;
