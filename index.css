@@ -6,11 +6,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #E6E6FA;
+    background-color: #9aa9dd;
 }
 
 .container {
-    background-color: #fff;
+    background-color: #9aa9dd;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -21,11 +21,12 @@ body {
 
 .profile-pic {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 80%;
     margin-bottom: 40px;
-    transform: translate(-50%, -50%);
+    margin-top: 150px;
+    transform: translate(-10%, -50%);
 }
 
 .btn {
@@ -40,7 +41,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: hsl(211, 59%, 34%);
 }
 
 .testimonial {
