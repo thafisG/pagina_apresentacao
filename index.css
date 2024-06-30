@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #000000;
 }
 
 .container {
@@ -22,7 +22,7 @@ body {
 .profile-pic {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 80%;
     margin-bottom: 20px;
 }
 
