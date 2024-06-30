@@ -24,7 +24,8 @@ body {
     height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
-    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    transform: translate(-10%, -50%);
 }
 
 .btn {
