@@ -1,19 +1,17 @@
 // Função chamada ao clicar no botão
 function participarCurso() {
     alert("Obrigado por se inscrever no curso!");
+
+    // Selecionar o botão pelo ID
+    const button = document.getElementById('participarButton');
+
+    // Alterar o texto do botão
+    button.textContent = "Inscrição Concluída!";
+    // Alterar a cor do fundo do botão para verde
+    button.style.backgroundColor = "#28a745";
+    // Desativar o botão após o clique
+    button.disabled = true;
 }
 
-// Exemplo de adicionar comportamento interativo
-document.addEventListener("DOMContentLoaded", function() {
-    const button = document.querySelector('.btn');
-    button.addEventListener('click', function() {
-        participarCurso();
-    });
-
-    // Exemplo de alterar o texto do botão após o clique
-    button.addEventListener('click', function() {
-        button.textContent = "Inscrição Concluída!";
-        button.style.backgroundColor = "#28a745"; // Cor verde para indicar sucesso
-        button.disabled = true; // Desativar o botão após o clique
-    });
-});
+// Adicionar o event listener ao botão
+document.getElementById('participarButton').addEventListener('click', participarCurso);
